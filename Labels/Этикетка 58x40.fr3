@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.6.1" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="По умолчанию" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="43062,7031455671" ReportOptions.Description.Text="" ReportOptions.LastChange="43299,9188600347" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxUserDataSet1" DataSetName="frxUserDataSet1"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="58" PaperHeight="40" PaperSize="256" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" Columns="1" ColumnWidth="200" ColumnPositions.Text="0" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Style="fsDot" Frame.Typ="15" Height="151,18110236" Left="0" Top="18,89765" Width="219,21274" ColumnWidth="0" ColumnGap="0" DataSet="frxUserDataSet1" DataSetName="frxUserDataSet1" RowCount="0">
+      <TfrxMemoView Name="Memo1" Left="3,77953" Top="3,77953" Width="211,65368" Height="79,37010559" DataSet="frxUserDataSet1" DataSetName="frxUserDataSet1" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[warename]"/>
+      <TfrxBarCodeView Name="BarCode1" Left="113,3859" Top="89,75593236" Width="103" Height="45,35431118" BarType="bcCodeEAN13" Expression="bc" Rotation="0" TestLine="True" Text="12345678" WideBarRatio="2" Zoom="1" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0"/>
+      <TfrxMemoView Name="Memo3" Left="3,77953" Top="91,37013" Width="105,82684" Height="37,7953" Font.Charset="1" Font.Color="0" Font.Height="-32" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[price] р."/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>
